@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(#fdfdfc, #000304);
+}
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+
+.n-width{
+    width: 40%;
+}
