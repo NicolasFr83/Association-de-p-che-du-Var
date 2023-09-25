@@ -1,12 +1,22 @@
+.navcolor{ 
+    background:rgb(193, 213, 195);
+}
+
+
 body{
-    background: linear-gradient(#fdfdfc, #000304);
+    background:whitesmoke;
 }
 .logo{
-    width: 75px;
-    height: 75px;
+    width: 150px;
+    height: 80px;
 }
 
 
 .n-width{
     width: 40%;
 }
+
+.textcolor{
+    color:rgb(129, 202, 136);
+}
+
