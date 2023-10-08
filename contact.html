@@ -33,11 +33,56 @@
     <!-- START-main -->
     <main>
         <div class="row">
-            <h1 class=" col-md-12 text-center text-decoration-underline mt-6">Bienvenue sur notre page contact</h1>
-            <p class=" col-md-12 text-center mt-5">Ici vous retrouverez nos identifiants de contacts (mail,tél) ainsi qu'un formulaire 
-                d'inscrition à notre association</p>
+            <h1 class=" col-md-12 text-center fs-1 fw-bold text-decoration-underline mt-5">Bienvenue sur notre page contact</h1>
+            <p class=" col-md-12 fs-3 mt-5 ms-1">Inscrivez-vous à notre association en tant que bénévole:</p>
         </div>
-
+        <section class="bg-success-subtle mt-2 p-3">
+            <div class="container col-8 col-md-6 mt-5 bg-dark">
+                <form>
+                    <div class="m-3 pt-3">
+                        <label for="exampleInputEmail1" class="form-label text-success">Adresse e-mail :</label>
+                        <input type="email" class="form-control text-success" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text text-success">Nous ne partagerons jamais votre e-mail 
+                            avec quelqu'un d'autre.
+                        </div>
+                    </div>
+                    <div class="m-3">
+                        <label for="validationDefault03" class="form-label text-success">Prénom</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="m-3">
+                        <label for="validationDefault03" class="form-label text-success">Nom</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col m-3">
+                        <label for="validationDefault03" class="form-label text-success">Ville</label>
+                        <input type="text" class="form-control" id="validationDefault03" required>
+                    </div>
+                    <div class="m-3">
+                        <label for="exampleInputPassword1" class="form-label text-success">Téléphone :</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-center pb-2 mb-5">
+                    <button type="submit" class="btn btn-outline-success">Soumettre</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div>
+                <p class="fs-3 mt-5 ms-1">Si vous voulez nous contacter :</p>
+            </div>
+            <div class="container-fluid bg-success-subtle d-flex justify-content-center">
+                <ul>
+                    <li>
+                        <p class=" text-success fs-3 m-2">Mail: Asso-peche-var@gmail.com</p>
+                    </li>
+                    <li>
+                        <p class="text-success fs-3 m-2"> Téléphone: 07 00 00 00 00</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <!-- END-main -->
