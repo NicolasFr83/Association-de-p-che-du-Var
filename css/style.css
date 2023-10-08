@@ -2,15 +2,14 @@
     background:rgb(193, 213, 195);
 }
 
-
 body{
     background:whitesmoke;
 }
-.logo{
-    width: 150px;
-    height: 80px;
-}
 
+.logo{
+    width: 100px;
+    height: 100px;
+}
 
 .n-width{
     width: 40%;
@@ -19,6 +18,15 @@ body{
 .textcolor{
     color:rgb(129, 202, 136);
 }
+
 .mt-6{
     margin-top: 10%;
+}
+
+.burgercolor{
+    color:green
+}
+
+.height{
+    height: 6rem;
 }
