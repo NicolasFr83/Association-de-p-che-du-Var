@@ -7,10 +7,10 @@ c'est un projet réalisé pour ma 1ere évaluation sur la plateforme studi , dep
 - html
 - css 
 - framework bootstrap 
-- firstmobile
+- dépoliement en firstmobile
 
 ## lien du site déployé :
 
-https://association-peche-du-Var.netlify.app/
+https://association-peche-du-Var-83.netlify.app/
 
 
